@@ -48,6 +48,7 @@ export const AboutMe = () => {
           Comecei meus estudos em desenvolvimento frontend há{" "}
           <span className="highlight">2 anos</span> atrás, assistindo ao{" "}
           <a
+            rel="noopener noreferrer"
             className="link-text"
             target="_blank"
             href="https://www.youtube.com/playlist?list=PLeuwJul7tRBfsm7sxnR5_7wG3KvaQ6oOt"

@@ -28,6 +28,8 @@ export const Home = () => {
           <p>Entre em contato 😉</p>
           <div className="flex gap-4 text-[1.8rem] w-fit mr-5">
             <a
+              title="Whatsapp"
+              rel="noopener noreferrer"
               className={hoverLinkText}
               target="_blank"
               href="https://whatsa.me/5577991379957"
@@ -35,6 +37,8 @@ export const Home = () => {
               <FaWhatsapp />
             </a>{" "}
             <a
+              title="GitHub"
+              rel="noopener noreferrer"
               className={hoverLinkText}
               target="_blank"
               href="https://github.com/adejuniorr/"
@@ -42,6 +46,8 @@ export const Home = () => {
               <FaGithub />
             </a>{" "}
             <a
+              title="LinkedI"
+              rel="noopener noreferrer"
               className={hoverLinkText}
               target="_blank"
               href="https://www.linkedin.com/in/dev-ademirjunior/"
