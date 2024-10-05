@@ -3,7 +3,7 @@ import { Home } from "./components/Home";
 
 function App() {
   return (
-    <div className="bg-slate-900 text-slate-50 px-4 py-6">
+    <div className="text-slate-50 px-4 py-6 w-[90vw] lg:w-[70vw] xl:w-[50vw] m-auto">
       <Home />
       <AboutMe />
     </div>

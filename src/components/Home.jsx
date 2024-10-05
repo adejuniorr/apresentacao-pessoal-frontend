@@ -1,27 +1,25 @@
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-import me from "/me-dark.svg";
+import me from "/images/me-dark.svg";
 
 export const Home = () => {
-  const highlightText = "text-green-500";
-  const linkText = "text-green-500 underline";
   const hoverLinkText = "hover:text-green-500 transition-all duration-300";
 
   return (
-    <main className="flex flex-col-reverse md:flex-row items-center justify-center gap-2 h-[90vh]">
+    <main className="flex flex-col-reverse md:flex-row items-center justify-center gap-4 h-[85vh]">
       <div className="text-center flex flex-col">
         <h1>
-          Oi, eu sou o <span className={highlightText}>Adê</span> =)
+          Oi, eu sou o <span className="highlight">Adê</span> =)
         </h1>
         <h2>
-          E sou <span className={highlightText}>Desenvolvedor Front-End</span>
+          E sou <span className="highlight">Desenvolvedor Front-End</span>
         </h2>
         <p className="text-justify mt-4">
           Aqui nesta página de apresentação você pode conhecer um pouco mais{" "}
-          <a href="#about-me" className={linkText}>
+          <a href="#about-me" className="link-text">
             sobre mim
           </a>{" "}
           e também conhecer alguns dos{" "}
-          <a href="#projects" className={linkText}>
+          <a href="#projects" className="link-text">
             meus projetos
           </a>
           .
@@ -53,7 +51,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-[50vw]">
+      <div className="w-[50vw] md:w-[70vw]">
         <img className="object-contain" src={me} alt="Foto do desenvolvedor" />
       </div>
     </main>

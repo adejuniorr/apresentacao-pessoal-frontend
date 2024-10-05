@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f172a;
+}
+
 h1 {
   font-size: 1.8rem;
   font-weight: bold;
@@ -10,4 +18,17 @@ h1 {
 h2 {
   font-size: 1.4rem;
   font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+}
+
+.highlight {
+  color: #22c55e;
+}
+
+.link-text {
+  color: #22c55e;
+  text-decoration: underline;
 }
