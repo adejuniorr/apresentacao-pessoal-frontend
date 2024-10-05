@@ -5,8 +5,11 @@ export const Home = () => {
   const hoverLinkText = "hover:text-green-500 transition-all duration-300";
 
   return (
-    <main className="flex flex-col-reverse md:flex-row items-center justify-center gap-4 h-[85vh]">
-      <div className="text-center flex flex-col">
+    <main
+      id="home"
+      className="flex flex-col-reverse md:flex-row items-center justify-center gap-4 h-[85vh]"
+    >
+      <div className="flex flex-col">
         <h1>
           Oi, eu sou o <span className="highlight">Adê</span> =)
         </h1>
