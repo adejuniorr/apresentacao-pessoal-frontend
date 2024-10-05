@@ -6,7 +6,7 @@ export const Home = () => {
 
   return (
     <main className="flex flex-col-reverse md:flex-row items-center justify-center gap-4 h-[85vh]">
-      <div className="text-center flex flex-col">
+      <div className="flex flex-col">
         <h1>
           Oi, eu sou o <span className="highlight">Adê</span> =)
         </h1>
