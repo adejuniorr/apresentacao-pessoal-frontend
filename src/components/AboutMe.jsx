@@ -4,12 +4,18 @@ import EuSouDoRock from "/images/eu-sou-do-rock.svg";
 import html from "/images/logos/html-logo.svg";
 import css from "/images/logos/css-logo.svg";
 import javascript from "/images/logos/js-logo.svg";
-import react from "/images/logos/react-logo.svg";
-import figma from "/images/logos/figma-logo.svg";
-import nodejs from "/images/logos/nodejs-logo.svg";
-import mysql from "/images/logos/mysql-logo.svg";
-import ts from "/images/logos/ts-logo.svg";
-import git from "/images/logos/git-logo.svg";
+import {
+  SiCss3,
+  SiFigma,
+  SiGit,
+  SiHtml5,
+  SiJavascript,
+  SiMysql,
+  SiNodedotjs,
+  SiReact,
+  SiTypescript,
+} from "react-icons/si";
+import { InfiniteSlider } from "./slider/InfiniteSlider";
 
 export const AboutMe = () => {
   return (
@@ -57,15 +63,15 @@ export const AboutMe = () => {
           o professor Gustavo Guanabara me ensinou lógica de programação básica
           e os principais conceitos da linguagem.
         </p>
-        <div className="flex md:justify-center md:gap-16 overflow-x-scroll md:overflow-auto gap-6">
+        <div className="flex sm:justify-center sm:gap-16 justify-evenly">
           <img
-            className="w-[90px]"
+            className="w-[25%]"
             src={html}
             alt="Logotipo da linguagem HTML"
           />
-          <img className="w-[90px]" src={css} alt="Logotipo da linguagem CSS" />
+          <img className="w-[25%]" src={css} alt="Logotipo da linguagem CSS" />
           <img
-            className="w-[90px]"
+            className="w-[25%]"
             src={javascript}
             alt="Logotipo da linguagem JavaScript"
           />
@@ -74,24 +80,19 @@ export const AboutMe = () => {
           Com o passar do tempo fui descobrindo e me aprofundando em novas
           tecnologias
         </p>
-        <div className="flex md:justify-center md:gap-16 overflow-x-scroll md:overflow-auto gap-6">
-          <img
-            className="w-[90px]"
-            src={react}
-            alt="Logotipo da biblioteca React"
-          />
-          <img
-            className="w-[90px]"
-            src={ts}
-            alt="Logotipo da linguagem TypeScript"
-          />
-          <img className="w-[90px]" src={nodejs} alt="Logotipo do NodeJS" />
-        </div>
-        <div className="flex md:justify-center md:gap-16 overflow-x-scroll md:overflow-auto gap-6">
-          <img className="w-[90px]" src={git} alt="Logotipo do Git" />
-          <img className="w-[90px]" src={figma} alt="Logotipo do Figma" />
-          <img className="w-[90px]" src={mysql} alt="Logotipo do SGBD MySQL" />
-        </div>
+        <InfiniteSlider
+          Logos={[
+            <SiHtml5 key={0} className="text-green-500" />,
+            <SiCss3 key={1} className="text-green-500" />,
+            <SiJavascript key={2} className="text-green-500" />,
+            <SiReact key={3} className="text-green-500" />,
+            <SiTypescript key={4} className="text-green-500" />,
+            <SiFigma key={5} className="text-green-500" />,
+            <SiGit key={6} className="text-green-500" />,
+            <SiNodedotjs key={7} className="text-green-500" />,
+            <SiMysql key={8} className="text-green-500" />,
+          ]}
+        />
       </div>
       <p className="text-center">
         No final de 2023, durante as férias após o terceiro semestre do curso de{" "}
@@ -99,7 +100,7 @@ export const AboutMe = () => {
         a investir intensamente em minha carreira profissional como dev.{" "}
         <span className="highlight">E aqui estou =)</span>
       </p>
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 my-16">
         <p>Ah! E se te interessa saber:</p>
         <img
           className="shadow-lg shadow-green-500 rounded-lg"
