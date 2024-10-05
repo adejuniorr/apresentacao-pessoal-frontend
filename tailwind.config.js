@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        ["infinite-slider"]: "infiniteSlider 30s linear infinite",
+        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
       },
       keyframes: {
         infiniteSlider: {

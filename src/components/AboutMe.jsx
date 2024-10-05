@@ -19,7 +19,7 @@ import { InfiniteSlider } from "./slider/InfiniteSlider";
 
 export const AboutMe = () => {
   return (
-    <div id="about-me" className="py-2 flex flex-col gap-4">
+    <div id="about-me" className="py-6 flex flex-col gap-4">
       <h1>
         <a href="#about-me">
           <span className="highlight">#sobre_mim</span>
@@ -54,6 +54,7 @@ export const AboutMe = () => {
           >
             curso em vídeo de JavaScript no YouTube.
           </a>
+          👨‍💻
         </p>
       </div>
       <div className="flex flex-col gap-4 text-justify">
