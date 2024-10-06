@@ -11,6 +11,7 @@ function App() {
         <AboutMe />
         <Projects />
       </div>
+      <GoToTopButton />
     </>
   );
 }

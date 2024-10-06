@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <main
       id="home"
-      className="flex flex-col-reverse md:flex-row items-center justify-center gap-4 h-[85vh]"
+      className="flex flex-col-reverse md:flex-row items-center justify-center gap-4 h-[85vh] mb-6"
     >
       <div className="flex flex-col">
         <h1>
@@ -40,6 +40,15 @@ export const Home = () => {
               <FaWhatsapp />
             </a>{" "}
             <a
+              title="LinkedIn"
+              rel="noopener noreferrer"
+              className={hoverLinkText}
+              target="_blank"
+              href="https://www.linkedin.com/in/dev-ademirjunior/"
+            >
+              <FaLinkedin />
+            </a>{" "}
+            <a
               title="GitHub"
               rel="noopener noreferrer"
               className={hoverLinkText}
@@ -47,15 +56,6 @@ export const Home = () => {
               href="https://github.com/adejuniorr/"
             >
               <FaGithub />
-            </a>{" "}
-            <a
-              title="LinkedI"
-              rel="noopener noreferrer"
-              className={hoverLinkText}
-              target="_blank"
-              href="https://www.linkedin.com/in/dev-ademirjunior/"
-            >
-              <FaLinkedin />
             </a>
           </div>
         </div>
