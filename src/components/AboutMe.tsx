@@ -5,7 +5,7 @@ import { Technologies } from "./about-me/Technologies";
 
 export const AboutMe = () => {
   return (
-    <div id="about-me" className="py-6 flex flex-col gap-4">
+    <div id="about-me" className="flex flex-col gap-4">
       <Introduction />
       <ReferencesAndInspirations />
       <Technologies />
