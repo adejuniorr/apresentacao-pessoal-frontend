@@ -1,4 +1,4 @@
-import EuSouDoRock from "/images/eu-sou-do-rock.svg";
+import EuSouDoRock from "/images/about-me/eu-sou-do-rock.svg";
 
 export const Finish = () => {
   return (

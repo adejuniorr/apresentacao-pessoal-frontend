@@ -1,5 +1,5 @@
-import GustavoGuanabaraMobile from "/images/gustavo-guanabara-mobile.svg";
-import GustavoGuanabaraDesktop from "/images/gustavo-guanabara-desktop.svg";
+import GustavoGuanabaraMobile from "/images/about-me/gustavo-guanabara-mobile.svg";
+import GustavoGuanabaraDesktop from "/images/about-me/gustavo-guanabara-desktop.svg";
 
 export const ReferencesAndInspirations = () => {
   return (
