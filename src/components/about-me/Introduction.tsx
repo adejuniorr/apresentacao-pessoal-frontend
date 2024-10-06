@@ -1,10 +1,8 @@
 export const Introduction = () => {
   return (
     <>
-      <h1>
-        <a href="#about-me">
-          <span className="highlight">#sobre_mim</span>
-        </a>
+      <h1 className="highlight">
+        <a href="#about-me">#sobre_mim</a>
       </h1>
       <p>Eu sou um curioso e um amante das artes.</p>
       <p>
